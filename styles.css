@@ -61,6 +61,7 @@ body{
     gap: 24px;
     margin: 0;
     padding: 0;
+    padding-right: 75px;
 }
 
 .nav-bar ul{
@@ -539,8 +540,7 @@ body{
 }
 
 .community-boxes{
-    column-count: 4;
-    column-width: 300px;
+    column-count: 3;
     column-gap: 20px;
     margin: 0 120px 72px;
 }
@@ -548,11 +548,9 @@ body{
 .box-card{
     border: 1px solid #163341;
     background: #0d212c;
-    border-radius: 12px;
-    width: 100%;
-    height: 250px;
-    /* max-width: 400px; */
+    border-radius: 12px;  
     margin-bottom: 16px;
+    break-inside: avoid;
 }
 
 .get-started h4{
